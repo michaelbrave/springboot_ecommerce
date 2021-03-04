@@ -2,6 +2,8 @@ package controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 public class ProductService {
 
 	public List<Product> findAll() {
@@ -22,6 +24,11 @@ public class ProductService {
 	public Product findById(int id) {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	public void save(@Valid Product product) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
