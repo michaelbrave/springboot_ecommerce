@@ -15,6 +15,11 @@ public class ProductService {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	public List<String> findDistinctBrands() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 	public List<Product> findByBrandAndOrCategory(String brand, String category) {
 		// TODO Auto-generated method stub
@@ -30,5 +35,7 @@ public class ProductService {
 		// TODO Auto-generated method stub
 		
 	}
+
+
 
 }

@@ -14,7 +14,7 @@
           </div>
       </div>
  
-      <!-- <div class="container">
+      <div class="container">
           <div class="row">
        		 <div class="card col-md-3 small-product-card"  th:each="product:${products}">
                     <a  th:href="@{/product/{id}(id=${product.getId()})}"><img th:alt="${product.name}" th:src="@{${product.image}}" class="card-img"/></a>
@@ -28,7 +28,6 @@
     		</div>
   		</div>
   </main>
-  -->
  
   <footer th:replace="fragments/fragments :: footer"></footer>
   </body>
